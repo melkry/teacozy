@@ -1,0 +1,135 @@
+body {
+    font-family: Helvetica, serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.header {
+    position: fixed;
+    background-color: black;
+    top: 0;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid #fff5ee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: seashell;
+}
+
+a:link {
+    color: seashell;
+}
+
+a:visited {
+    color: seashell;
+}
+
+.header li {
+    text-decoration: underline;
+    text-align: center;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.header li a {
+    margin: 0;
+    border: 0px;
+}
+
+#mission {
+    margin: 69px auto;
+    height: 700px;
+    max-width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blurb {
+    background-color: black;
+    width: 1200px;
+}
+
+#featured {
+    margin: auto;
+}
+
+.tcards img {
+    height: 200px;
+    width: 300px;
+}
+
+.tcards h4 {
+    margin-top: 10px;
+}
+
+.tcards {
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tcards .card {
+    margin: 0 auto;
+}
+
+#locations {
+    margin: auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    max-width: 1200px;
+    height: 500px;
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#locations h2 {
+    margin-bottom: 15px;
+}
+
+.lcards {
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+}
+
+.lcards .card {
+    background-color: black;
+    opacity: 1;
+    min-height: 300px;
+    width: 300px;
+    margin: 0px 20px;
+    flex: 1;
+}
+
+#locations h2 {
+    padding-top: 69px;
+}
+
+.copyright h5 {
+    text-align: left;
+    margin-left: 20px;
+}
